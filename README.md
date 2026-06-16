@@ -1,5 +1,3 @@
-# LKLJ
-
 # robot przemysłowy
 
 ### Schemat blokowy systemu (Flowchart)
@@ -35,11 +33,11 @@ graph TD
     style UC7 fill:#fff4dd,stroke:#d4a017
     style UC10 fill:#fff4dd,stroke:#d4a017
     style UC11 fill:#fff4dd,stroke:#d4a017
-
+```
 
 ### Diagram stanów systemu (State Diagram)
 
-
+```mermaid
 stateDiagram-v2
     [*] --> Wyłączony
     
@@ -90,7 +88,7 @@ stateDiagram-v2
     class Gotowy normal
     class Czekanie normal
     class Odkładanie normal
-
+```
 
 # Analiza zastosowanych wzorców projektowych
 
@@ -664,4 +662,3 @@ namespace RobotPrzemyslowy
     }
     #endregion
 }
-```
