@@ -95,7 +95,7 @@ stateDiagram-v2
 # Analiza zastosowanych wzorców projektowych
 
 ## Zastosowane wzorce projektowe
-
+```mermaid
 ### State (Stan)
 **Cel wzorca:**  
 Umożliwia zmianę zachowania obiektu w zależności od jego aktualnego stanu, bez stosowania rozbudowanych instrukcji warunkowych.
@@ -664,3 +664,4 @@ namespace RobotPrzemyslowy
     }
     #endregion
 }
+```
